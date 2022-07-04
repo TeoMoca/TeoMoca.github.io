@@ -1,0 +1,65 @@
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.me {
+  width: 500px;
+  height: auto;
+  top: 0;
+  right: 0;
+  position: absolute;
+  clip-path: polygon(100% 0%, 100% 100%, 40% 100%, 0% 0%);
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 40% 100%, 0% 0%);
+}
+
+.name {
+  font-size: 50px;
+  font-family: Main;
+  color: var(--fifth-color);
+}
+
+.title {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  margin-left: 75px;
+  letter-spacing: 0.15em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.portfolio {
+  margin-left: 50px;
+  color: var(--third-color);
+  font-weight: 200;
+}
+
+.blinker {
+  border-right: 0.15em solid orange;
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}

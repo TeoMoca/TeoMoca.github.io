@@ -1,0 +1,27 @@
+.project-container .title {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.project-container {
+  gap: 10px;
+  align-items: center;
+}
+
+.project-container:hover .title {
+  color: var(--fifth-color);
+}
+
+.project-container:hover .project-description {
+  display: flex;
+}
+
+.project-description {
+  display: none;
+  width: 90%;
+  transition: all 0.8s;
+  color: var(--fifth-color);
+}

@@ -1,0 +1,26 @@
+.rating-component {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rating-component-dots-container {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+}
+
+.rating-component-dot {
+  background-color: transparent;
+  border: solid 1px var(--fifth-color);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+}
+
+.rating-component-dot.active {
+  background-color: var(--secondary-color);
+}
