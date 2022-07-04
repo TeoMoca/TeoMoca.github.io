@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.369d2755.css",
-    "main.js": "/static/js/main.b1076f0f.js",
+    "main.js": "/static/js/main.68cd3108.js",
     "static/js/787.67b99310.chunk.js": "/static/js/787.67b99310.chunk.js",
     "static/media/teo.jpg": "/static/media/teo.119d20571686352d62d5.jpg",
     "static/media/Sansita-Regular.ttf": "/static/media/Sansita-Regular.a9ec3c79eb14b373cb1f.ttf",
     "index.html": "/index.html",
     "main.369d2755.css.map": "/static/css/main.369d2755.css.map",
-    "main.b1076f0f.js.map": "/static/js/main.b1076f0f.js.map",
+    "main.68cd3108.js.map": "/static/js/main.68cd3108.js.map",
     "787.67b99310.chunk.js.map": "/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.369d2755.css",
-    "static/js/main.b1076f0f.js"
+    "static/js/main.68cd3108.js"
   ]
 }
