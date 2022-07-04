@@ -1,5 +1,5 @@
 //import logo from "./logo.svg";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Component } from "react";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
@@ -46,7 +46,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <div>
         <Routes>
           <Route
             exact
@@ -60,7 +60,6 @@ class App extends Component {
             }
           />
           <Route
-            exact
             path="/skills"
             element={
               <SkillsPage
@@ -70,7 +69,6 @@ class App extends Component {
           />
 
           <Route
-            exact
             path="/repositories"
             element={
               <Repositories
@@ -84,7 +82,7 @@ class App extends Component {
           languageChange={this.handleChange}
           availableLanguages={Object.keys(messages)}
         ></Footer>
-      </Router>
+      </div>
     );
   }
 }
