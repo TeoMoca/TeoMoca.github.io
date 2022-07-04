@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TeoMoca/TeoMoca.github.io/static/css/main.76b18ed2.css",
-    "main.js": "/TeoMoca/TeoMoca.github.io/static/js/main.46d74a07.js",
-    "static/js/787.67b99310.chunk.js": "/TeoMoca/TeoMoca.github.io/static/js/787.67b99310.chunk.js",
-    "static/media/teo.jpg": "/TeoMoca/TeoMoca.github.io/static/media/teo.119d20571686352d62d5.jpg",
-    "static/media/Sansita-Regular.ttf": "/TeoMoca/TeoMoca.github.io/static/media/Sansita-Regular.a9ec3c79eb14b373cb1f.ttf",
-    "index.html": "/TeoMoca/TeoMoca.github.io/index.html",
-    "main.76b18ed2.css.map": "/TeoMoca/TeoMoca.github.io/static/css/main.76b18ed2.css.map",
-    "main.46d74a07.js.map": "/TeoMoca/TeoMoca.github.io/static/js/main.46d74a07.js.map",
-    "787.67b99310.chunk.js.map": "/TeoMoca/TeoMoca.github.io/static/js/787.67b99310.chunk.js.map"
+    "main.css": "/static/css/main.4bf2f1c6.css",
+    "main.js": "/static/js/main.54010bde.js",
+    "static/js/787.67b99310.chunk.js": "/static/js/787.67b99310.chunk.js",
+    "static/media/teo.jpg": "/static/media/teo.119d20571686352d62d5.jpg",
+    "static/media/Sansita-Regular.ttf": "/static/media/Sansita-Regular.a9ec3c79eb14b373cb1f.ttf",
+    "index.html": "/index.html",
+    "main.4bf2f1c6.css.map": "/static/css/main.4bf2f1c6.css.map",
+    "main.54010bde.js.map": "/static/js/main.54010bde.js.map",
+    "787.67b99310.chunk.js.map": "/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76b18ed2.css",
-    "static/js/main.46d74a07.js"
+    "static/css/main.4bf2f1c6.css",
+    "static/js/main.54010bde.js"
   ]
 }
